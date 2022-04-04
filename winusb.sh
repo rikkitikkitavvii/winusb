@@ -2,7 +2,7 @@
 echo "Starting..."
 echo ""
 echo "Installing wintools..."
-sudo apt install wimtools -y
+sudo dnf copr enable nalika/wimtools && sudo dnf install wimtools
 echo "wintools installed successfully!"
 echo ""
 echo "Mounting Windows Media ISO file @ /media/iso..."
