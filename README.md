@@ -3,7 +3,7 @@ Script to create Windows 10 bootable USB from linux
 
 Visit the [blog page](https://programagik.blogspot.com/) for additional information.
 
-This script works for Ubuntu and can be modified for any other distro by changing the `apt` package to others.
+This script works for Ubuntu and can be modified for any other distro by changing the `dnf` package to others.
 
 ### Step to prepare:
 1. Download Windows10.iso file from Microsoft website.
